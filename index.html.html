@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <a href="file:///C:/Users/beyza/OneDrive/Masa%C3%BCst%C3%BC/HTML/flexboxcard.html">cardödeviniaç</a>
+  <title>card örnek</title>
+
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 9;
+      padding: 6;
+    
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      background-color: wheat;
+    }
+    .card {
+      background-color: white;
+      width: 500px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: red;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: red;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: 16px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: blue;
+    }
+
+    .card-content p {
+      font-size: 0.95rem;
+      color: black;
+      margin-bottom: 15px;
+    }
+
+    .card-content a {
+      text-decoration: none;
+      color:purple;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+
+    .card-content a:hover {
+      color: pink;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card">
+      <img src="https://picsum.photos/id/1011/306/180" alt="Kart Görseli Bulunamadı" />
+      <div class="card-content">
+        <h3>This is some title</h3>
+        <p>>Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestiblum ultrices iaculis enim imperdrdiet egestas.</p>
+        <a href="#">Devamını Oku</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/1005/800/450.jpg?hmac=-8wdoAbn0F4FYUl0i8MKdy8wnMnIzBIBzw5nHgckE9Y" alt="Kart Görseli Bulunamadı" />
+      <div class="card-content">
+        <h3>This is some title</h3>
+        <p>Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestiblum ultrices iaculis enim imperdrdiet egestas.</p>
+        <a href="#">Devamını Oku</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/id/103/306/180" alt="Kart Görseli Bulunamadı" />
+      <div class="card-content">
+        <h3>This is some title</h3>
+        <p>Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestiblum ultrices iaculis enim imperdrdiet egestas</p>
+        <a href="#">Devamını Oku</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
